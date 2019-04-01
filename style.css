@@ -1,0 +1,472 @@
+/* 
+Theme name: Performance2
+Theme URL: https://www.youtube.com
+Author: Krystle Mensah
+Author URL: https://www.youtube.com
+Description: play center site
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: krystle mensah
+*/
+body {
+  background-color: #F7B733; 
+}
+/* GLOBAL
+-------------------------------------------------- */
+
+
+h1.section-title {
+  text-align: center;
+  padding: 40px;
+  margin: 40px;
+}
+i.fab.fa-instagram {
+  color: #df42f4;
+}
+i.fab.fa-twitter {
+  color: rgba(29,161, 242, 1.00);
+}
+i.fab.fa-facebook-f {
+  color: #3b5998;
+}
+h3 {
+  margin: 0;
+}
+/* CAROUSEL
+-------------------------------------------------- */
+
+
+span#header-contact {
+  position: absolute;
+  z-index: 1;
+  left: 230vh;
+  top: 5vh;
+  color: #fff2e6;
+}
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+/* Declare heights because of positioning of img element */
+
+
+.carousel-item {
+  height: 32rem;
+  background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) )
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+  opacity: 0.5;
+}
+#myCarousel h1 {
+  font-size: 3.5rem;
+  color: #fff2e6;
+  text-shadow: 1px 0px 5px #000;
+}
+p.carousel-text {
+  font-size: 1rem;
+  text-shadow: 0px 1px 1px #000;
+  color: #fff2e6;
+}
+span.text-pink {
+  color: #ff0066; 
+}
+span.text-yellow {
+  color: #ffff00;
+}
+span.text-blue {
+  color: #0066ff;
+}
+span.text-orange {
+  color:  #ff6600;
+}
+span.text-green {
+  color: #00ff00;
+}
+span.text-purple {
+  color: #ff33cc;
+}
+.header-logo {
+  position: absolute;
+  bottom: 48vh;
+  left: 0vh;
+}
+/* NAVIGATION
+-------------------------------------------------- */
+
+
+nav a {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+  color: #fff2e6!important;
+}
+div#main-social-icons {
+  text-align: center;
+}
+a.social-main-links {
+  margin: 0px 20px 0px 20px;
+  font-size: 3rem;
+}
+/* Nav links */
+
+
+li#menu-item-5 {
+  background-color:#F68B1F;
+}
+a#menu-item-dropdown-34 {
+  background-color: #FF6600;   
+}
+li#menu-item-41 {
+  background-color:#F68B1F;
+  
+}
+li#menu-item-25 {
+  background-color: #FF6600; 
+}
+li#menu-item-29 {
+  background-color: #F68B1F;
+}
+/* WHAT WE DO SECTION
+-------------------------------------------------- */
+
+
+.box {
+  background-color: #ff6600;
+  height: 170px;
+}
+.bx-red {
+  background-color:#F68B1F;
+}
+.bx-orange {
+  background-color: #ff6600;
+}
+.bx-blue {
+  background-color: #F68B1F;
+}
+.col-lg-3.col-md-12.col-sm-12.box {
+  margin-right: 50px;
+  margin-left: 45px;
+  border-radius: 15px;
+}
+#what-we-do a {
+  color: #fff2e6;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  /* text-shadow: 0px 1px 1px #ff33cc; */
+  font-weight: bold;  
+}
+#what-we-do a:hover {
+  color: #FFF;
+  text-decoration: underline!important;
+}
+#what-we-do p {
+  color: #fff2e6;
+  text-align: center;
+}
+.para-text {
+  font-size: 0.90rem;
+}
+/*  TEAM SECTION
+-------------------------------------------------- */
+
+
+h2.team-name-title {
+  margin: 20px;
+  padding: 20px;
+}
+/* FOOTER
+-------------------------------------------------- */
+
+
+footer {
+  height: 100%;
+}
+footer, a {
+  color: #fff2e6;
+}
+a:hover {
+  color: #0069d9;  
+}
+#subscribe-text {
+  font-weight: bold;
+  color: #fff2e6;
+}
+input[type="email"] {
+  background: transparent;
+  border: 1px solid #fff2e6;
+  width: 100%;
+  padding: 10px;
+}
+input::placeholder { 
+  color: #0069d9;
+}
+button.btn.btn-lg {
+  margin: 30px 0px 0 0;
+  color: #fff2e6;
+  background-color: #0069d9;  
+}
+.footer-title {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #fff2e6;
+}
+.footer-social-icons {
+  font-size: 3rem;
+  text-align: center;
+}
+.footer-logo {
+  padding-left: 106px;
+  margin-left: 106px;
+}
+i.fas.fa-phone {
+  margin: 0 10px 0 0;
+}
+.info-section {
+  padding: 20px;
+}
+#copyright-info {
+  margin-left: 22px;
+}
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    line-height: 1.4;
+  }
+  /* .featurette-heading {
+    font-size: 50px;
+  } */
+}
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+/* MIN 1440PX
+-------------------------------------------------- */
+
+
+@media (min-width: 1240px) {
+  div#navbarCollapse {
+    position: relative;
+  }
+  
+  ul#menu-main-menu {
+    position: inherit;
+    left: 8vh;
+  }
+  p.carousel-text {
+    font-size: 2rem;
+  }
+}
+/* MIN 992PX
+-------------------------------------------------- */
+
+
+@media (min-width: 992px) { 
+  #myCarousel h1 {
+    font-size: 6.5rem;
+  } 
+}
+/* MIN 992 AND MAX 1186
+-------------------------------------------------- */
+
+
+@media (min-width: 992px) and (max-width: 1186px) { 
+  .col-lg-3.col-md-12.col-sm-12.box {
+    margin-right: 40px;
+    margin-left: 40px;
+  }
+}
+/* MAX 768PX AND MIN 568PX
+-------------------------------------------------- */
+
+
+@media (max-width: 768px) and (min-width: 568px) {
+  /* WHAT WE DO */
+
+
+  .col-lg-3.col-md-12.col-sm-12.box {
+    margin-left: 0px;
+  }
+  
+}
+/* MAX 768PX (tablet)
+-------------------------------------------------- */
+
+
+@media (max-width: 768px) {
+  /* HEADER */
+  
+  #myCarousel h1 {
+    position: relative;
+    bottom: 80px;
+  }
+  .carousel-caption {
+    margin: 0 40px 0px 50px;
+  }
+  span#header-contact {
+    display: none;
+  }
+  /* NAV BAR */
+  
+  
+  .navbar {
+    padding: 1rem 1rem;
+  }
+  ul#menu-main-menu {
+    padding: 0;
+  }
+  /* MAIN SOCIAL LINKS */
+
+
+  a.social-main-links {
+    font-size: 1.5rem;
+  }
+  /*  LOGO  */
+
+
+  .header-logo {
+    display: none;
+  }
+  /* WHAT WE DO */
+
+
+  .col-lg-3.col-md-12.col-sm-12.box {
+    margin-bottom: 10px;
+  }
+  /* FOOTER */
+
+
+  .footer-logo {
+    padding-left: 132px;
+    margin-left: 132px;
+  }
+}
+/* MAX 425PX
+-------------------------------------------------- */
+
+
+@media (max-width: 425px) {
+  /* HEADER */
+  /* NAVIGATION */
+  
+  
+  button.navbar-toggler {
+    position: inherit;
+    bottom: 0vh;
+    border: 3px solid #000;
+    left: 13vh;
+    top: 0vh;
+    right: 0vh;
+  }
+  /* CAROUSEL */
+
+  
+  #myCarousel h1 {
+    font-size: 2.5rem;
+  }
+  .carousel-inner img {
+    width: 20%;
+  }
+  /* WHAT WE DO */
+  
+  
+  .box {
+    margin-right: 0px;
+  }
+  /* FOOTER */
+
+
+  .float-right {
+    float: none !important;
+    text-align: center;
+  }
+  p#footer-copyright {
+    text-align: center;
+  }
+  div#social-icons {
+    text-align: center;
+  }
+  .footer-logo {
+    padding-left: 48px;
+    margin-left: 48px;
+  }
+  
+}
+/*
+MAX 375 PX
+---------------------*/
+
+
+@media (max-width: 375px) {
+  /* CAROUSEL */
+
+
+  #myCarousel h1 {
+    font-size: 2.5rem;
+  }
+  /* HUMBER ICON */
+
+
+  button.navbar-toggler {
+    left: 10vh;
+  }
+  /* WHAT WE DO */
+  
+  
+  .para-title {
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+  }
+  /* FOOTER */
+
+
+  .footer-logo {
+    padding-left: 32px;
+    margin-left: 32px;
+  }
+}
+/*
+MAX 320 PX
+---------------------*/
+
+
+@media (max-width: 320px) {
+  img#logo {
+    position: inherit;
+    right: 48px;
+  }
+  /* CAROUSEL  */
+
+
+  #myCarousel h1 {
+    font-size: 2.5rem;
+  }
+  /* FOOTER */
+
+
+  p#footer-copyright {
+    font-size: 0.7rem;
+  }
+  /* HUMBER ICON */
+
+
+  button.navbar-toggler {
+    left: 9vh;
+  }
+}
